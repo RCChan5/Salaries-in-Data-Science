@@ -38,11 +38,11 @@ The user would input their skill set into a multi-select box on streamlit and fr
 #### Some models considered:
 * Multinomial logistic regression
 * SVM
-* Neural net
+* Neural Net
 * KMode Clustering
  
 ## Future Work
-Moving forward there are several things I would like to add / change to improve this application.
+Moving forward there are several things I would like to add / change to improve this application:
 * Using streamlit cache to optimize performance and to smoothen users' experience when using the random forest classifier.
 * Increase data or get a better dataset that would be more balance for data science job types.
 * Try different algorithms (see models considered above).
