@@ -32,6 +32,19 @@ This is a dataset found on [Kaggle](https://www.kaggle.com/datasets/nikhilbhathi
  
 ## Classifier using Random Forest
 ![](data/tree.png?raw=true)
-The goal of this section is to try and classify the different types of jobs in data science based of their skills.
-
+The goal of this section is to try and classify the different types of jobs in data science-based on their skills.
+The user would input their skill set into a multi-select box on streamlit and from the model predict what type of job would best fit their skills.
+ 
+#### Some models considered:
+* Multinomial logistic regression
+* SVM
+* Neural net
+* KMode Clustering
+ 
 ## Future Work
+Moving forward there are several things I would like to add / change to improve this application.
+* Using streamlit cache to optimize performance and to smoothen users' experience when using the random forest classifier.
+* Increase data or get a better dataset that would be more balance for data science job types.
+* Try different algorithms (see models considered above).
+* Implement some sort of boosting algorithm to increase model accuracy.
+ 
